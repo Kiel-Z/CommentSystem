@@ -1,0 +1,22 @@
+[core-service] 2026-03-21 17:56:30  INFO Version:21 - HV000001: Hibernate Validator 8.0.2.Final
+[core-service] 2026-03-21 17:56:30  INFO HmDianPingApplication:53 - Starting HmDianPingApplication using Java 21.0.8 with PID 63396 (D:\code\Java_code\gitee\hmdp-plus\hmdp-core-service\target\classes started by 张淇越 in D:\code\Java_code\gitee\hmdp-plus)
+[core-service] 2026-03-21 17:56:30  INFO HmDianPingApplication:652 - No active profile set, falling back to 1 default profile: "default"
+[core-service] 2026-03-21 17:56:38  INFO RepositoryConfigurationDelegate:294 - Multiple Spring Data modules found, entering strict repository configuration mode
+[core-service] 2026-03-21 17:56:38  INFO RepositoryConfigurationDelegate:145 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[core-service] 2026-03-21 17:56:38  INFO RepositoryConfigurationDelegate:213 - Finished Spring Data repository scanning in 232 ms. Found 0 Redis repository interfaces.
+[core-service] 2026-03-21 17:56:42  INFO TomcatWebServer:111 - Tomcat initialized with port 8085 (http)
+[core-service] 2026-03-21 17:56:42  INFO Http11NioProtocol:168 - Initializing ProtocolHandler ["http-nio-8085"]
+[core-service] 2026-03-21 17:56:42  INFO StandardService:168 - Starting service [Tomcat]
+[core-service] 2026-03-21 17:56:42  INFO StandardEngine:168 - Starting Servlet engine: [Apache Tomcat/10.1.43]
+[core-service] 2026-03-21 17:56:43  INFO [/]:168 - Initializing Spring embedded WebApplicationContext
+[core-service] 2026-03-21 17:56:43  INFO ServletWebServerApplicationContext:301 - Root WebApplicationContext: initialization completed in 11407 ms
+[core-service] 2026-03-21 17:56:44  INFO Version:43 - Redisson 3.52.0
+[core-service] 2026-03-21 17:56:46  INFO ConnectionsHolder:134 - 1 connections initialized for common-framework.com.cn/82.156.211.182:6379
+[core-service] 2026-03-21 17:56:48  INFO ConnectionsHolder:134 - 24 connections initialized for common-framework.com.cn/82.156.211.182:6379
+[core-service] 2026-03-21 17:56:52  INFO BloomFilterDataInit:40 - ==========初始化商铺的布隆过滤器==========
+[core-service] 2026-03-21 17:56:52  INFO HikariDataSource:109 - HikariPool-1 - Starting...
+[core-service] 2026-03-21 17:56:53  INFO HikariDataSource:109 - HikariPool-2 - Starting...
+[core-service] 2026-03-21 17:56:53  INFO HikariPool:580 - HikariPool-2 - Added connection conn0: url=jdbc:h2:mem:config user=SA
+[core-service] 2026-03-21 17:56:53  INFO HikariDataSource:122 - HikariPool-2 - Start completed.
+[core-service] 2026-03-21 17:56:54  INFO HikariDataSource:109 - HikariPool-3 - Starting...
+[core-service] 2026-03-21 17:57:00  WARN AnnotationConfigServletWebServerApplicationContext:635 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bloomFilterDataInit': Invocation of init method failed
